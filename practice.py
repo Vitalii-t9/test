@@ -1,3 +1,5 @@
+# Exercises by python book
+
 # x = 10
 # if x>0:
 #     print("1")
@@ -15,9 +17,9 @@
 #     z = x
 # print(z)
 
-apple = 1
-pear = 2
-orange = 3
+# apple = 1
+# pear = 2
+# orange = 3
 
 # if apple > pear and pear < orange:
 #     print("First case")
