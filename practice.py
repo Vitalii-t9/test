@@ -248,13 +248,106 @@
 #             print("Try again!!! You can enter only yes or no!")
 
 
+# D = {1: 'a', 2: 'b', 3: 'c'}
+# print(tuple(D.values()))
+# print(D.keys())
+# print(D.items())
+
+# keys = ['spam', 'eggs', 'toast']
+# vals = [1, 3, 5]
+# D3 = dict(zip(keys, vals))
+# m = max(1, 45, 32)
+# print(m)
 
 
+# def sorta_sum(a, b):
+#   if a+b in list(range(10, 20)):
+#     return 20
+#   return a+b
+#
+# sorta_sum(1,4)
+# sorta_sum(10,5)
 
+# def near_ten(num):
+#   l = [-2, -1, 0, 1, 2]
+#   for i in l:
+#     if (num+i) %10 == 0:
+#       return True
+#     return False
 
+# m = [1, 2, 3]
+# print(sum(m))
+# del(m[0], m[1])
+# print(m)
+# print(sum(m))
 
+# lis = [1, 13, 2, 13]
+#
+# print(lis.index(13))
+# print(lis[:0])
 
+# m = 'catdog'
+# print(m.count("cat"))
 
+# n = "cozexxcope"
+#
+# print(n.)
 
+# def count_code(str):
+#   x = ["co" + i + "e" for i in str]
+#   count = 0
+#   for i in x:
+#     if i in str:
+#       count += str.count(i)
+#
+#   return count
+#
+# print(count_code("cozefarcodegdhrcone"))
 
+# m = "gf"
+# print(m[0])
+# m.is
 
+# def xyz_there(str):
+#   if len(str) == 3 and str == "xyz":
+#     return True
+#
+#   elif len(str) > 3:
+#     m = []
+#
+#     for i in range(len(str)):
+#       m.append(str[i:i + 4])
+#       if str[i] == ".":
+#
+#
+#
+#     for n in m:
+#
+#       if ((n[0].isalpha() or n[0].isdigit()) and n[1:] == "xyz") or n[:3] == 'xyz':
+#         return True
+#
+#       elif (n[0] == "." and n[1:] == "xyz") or "xyz" not in str:
+#         return False
+#
+#   else:
+#     return False
+#
+# print(xyz_there('1.xyz.xyz2.xyz'))
+# m = [1,2,34]
+# print(m)
+# del(m[m.index(1):m.index(1)+2])
+# print(m)
+
+# def sum13(nums):
+#   nl = nums
+#
+#   for i in range(len(nl)):
+#     if nl[i] == 13:
+#       del (nl[nl.index(i):nl.index(i) + 2])
+#       print(nl)
+#   return sum(nl)
+
+# m = [1, 3, 4, 13, 12, 12, 32, 1, 13]
+#
+# print(m.index(13))
+# print(m.index(13))

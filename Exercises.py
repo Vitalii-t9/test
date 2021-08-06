@@ -40,3 +40,99 @@
 # print(x)
 
 #
+# x = 'spam'
+# y = 'eggs'
+# print(x, y)
+# x, y = y, x
+# print(x, y)
+#
+# D = {1: 'a', 2: 'b'}
+# print(D)
+# D[3] = "c"
+# pri
+
+# import os
+# import sys
+#
+# print(sys.prefix)
+#
+# print(os.getlogin())
+
+# S = "spam"
+# print(S)
+# S = "sl" + S[2] + S[3]
+# print(S)
+
+# my_file = open('myfile.txt', 'w+')
+# my_file.write(" Hello there!!\n How are you?\n Everything is fine))")
+# my_file.close()
+# my_file = open('myfile.txt')
+# print(my_file.read())
+
+# x = [1, 2, 3]
+# for i in x:
+#     print('hi', end='--')
+
+# while True:
+#     reply = input('Enter text:')
+#     if reply == 'stop': break
+#     try:
+#         num = int(reply)
+#     except:
+#         print('Bad!' * 8)
+#     else:
+#         print(int(reply) ** 2)
+# print('Bye')
+
+# print(x, y, z, sep=’, ‘)
+
+# S = "ABCDEIFGKLMNOPRSTQXYZ"
+# s = []
+# print(len(S))
+# for i in S:
+#     s.append(ord(i))
+# print(s)
+#
+# sm = map(ord, S)
+#
+# print(sm)
+# print(sm.__next__())
+# print(sm.__next__())
+# print(sm.__next__())
+
+# for i in range(50):
+#     print('hello %d\n\a' % 1)
+
+# dic = dict(a=23, b=48, c=432, d=393993, e=12)
+# print(dic)
+# print(dic.values())
+# keys = sorted(dic.values())
+# print(keys)
+
+L = [1, 2, 4, 8, 16, 32, 64]
+x = 5
+i = 0
+# while i < len(L):
+#     if 2**x == L[i]:
+#         print("at index", i)
+#         break
+#     elif i == len(L)-1 and 2**x != L[i]:
+#         print("x not found")
+#         break
+#     else:
+#         i += 1
+
+# for i in L:
+#     if i == 2**x:
+#         print("at index", L.index(i))
+#         break
+#     elif i == L[-1] and L[-1] != 2**x:
+#         print("x not found")
+
+# if 2**x in L:
+#     print("at index", L.index(2**x))
+# else:
+#     print("x not found")
+
+# K = [2**x for x in range(7)]
+# print(K)
