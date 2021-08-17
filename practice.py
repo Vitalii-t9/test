@@ -351,3 +351,39 @@
 #
 # print(m.index(13))
 # print(m.index(13))
+
+# L = [1, 2]
+# b = L
+# print(L)
+# b[0] = "new"
+# print(L)
+
+# def output(a:int):
+#     print(a)
+#
+# print(output.__annotations__)
+
+# def action(x):
+#     print(x)
+#     return (lambda y: x+y)
+#
+#
+# print(action(5)(4))
+#
+# MAP Function
+# L = range(-10, 10)
+# def sum_numbers(x):
+#     return x + 5
+# K = list(map(sum_numbers, L))
+# print(K)
+
+# Filter Function
+# L = range(10,1000)
+#
+# def devided_by_2(x):
+#     if x % 101 == 0:
+#         return x
+# O = list(filter(devided_by_2, L))
+# print(O)
+from functools import reduce
+print(reduce((lambda x, y: x + y), [], 0))
